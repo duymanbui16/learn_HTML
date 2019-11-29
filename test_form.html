@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>new website</title>
+    </head>
+    <body>
+        <!--Heading-->
+        <h1>The Art Book Shop</h1>
+        <fieldset>
+            <legend>Your Details</legend>
+            <label>Name: </label>
+            <input type="text" name="name" maxlength="40"/>
+            <br />
+            <label>Email: </label>
+            <input type="email" name="email" maxlength="100"/>
+        </fieldset>
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>
+            <label for="hear-about">How did you hear about us? </label> 
+            <select name="referer">
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+            </select>
+            </p>
+            
+            Would you visit again? 
+            <br />
+            <label>
+                <input type="radio" name="option"/> Yes
+            </label>
+            <label>
+                <input type="radio" name="option"/> No
+            </label>
+             <label>
+            <input type="radio" name="option"/> Maybe
+            </label>
+            <p>
+                <label for="comments">Comments: </label>
+                <br />
+                <textarea rows="4" cols="40" id="comments"> Enter something </textarea>
+            </p>
+            <div>
+                <label> 
+                    <input type="checkbox" name="" value="subscribe"/> Sign me for email update
+                </label>
+            </div>
+            <p><input type="submit" value="submit review" /></p>
+        </fieldset>
+    </body>
+</html>
